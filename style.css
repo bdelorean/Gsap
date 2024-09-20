@@ -1,0 +1,13 @@
+.w-50 {
+    width: 200px;
+    height: 250px;
+    object-fit: contain;
+  }
+  .images{
+    max-width: 500px;
+  }
+  .text{
+    background-color: aquamarine;
+    width:80%;
+    margin: 0 auto;
+  }
