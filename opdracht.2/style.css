@@ -1,0 +1,31 @@
+.circle-red{
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    border-radius: 50%;
+}
+.circle-yellow{
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+    border-radius: 50%;
+}
+.circle-blue{
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    border-radius: 50%;
+}
+header{
+    background-color: antiquewhite;
+    padding: 20px;
+}
+button{
+    position: absolute;
+    bottom: 10px;
+    width: 110px;
+    padding: 10px;
+    background-color: black;
+    color: aliceblue;
+    margin-left: 20px;
+}
