@@ -1,0 +1,56 @@
+.img-user {
+  height: 35px;
+  width: 35px;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.img {
+  width: 100vw;
+  height: 50vh; /* sau o altă dimensiune dorită */
+}
+
+.img img {
+  width: 100vw; /* Lățimea ecranului */
+  height: 50vh; /* Păstrează proporțiile imaginii */
+  display: block; /* Elimină spațiul de sub imagine */
+  object-fit: cover;
+}
+.coach-container {
+  width: 190px;
+  left: 2%;
+  height: auto;
+}
+
+/* Stiluri pentru imaginea antrenorului */
+.coach-container img {
+  width: 200px; /* Dimensiunea imaginii antrenorului */
+  height: 270px; /* Păstrează proporțiile */
+}
+.greet {
+  margin-left: 20%;
+}
+
+.calorie-tracker{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    margin-bottom: 90vh;
+}
+
+.progress-circle {
+    width: 150px; /* Diametrul cercului */
+    height: 150px; /* Diametrul cercului */
+    border-radius: 50%; /* Face colțurile rotunde pentru a forma un cerc */
+    background: conic-gradient(#76c7c0 100%, #f0f0f0 0%); /* Culoarea cercului */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; /* Pentru a poziționa textul în centrul cercului */
+}
+.subtitle{
+    margin-top: 10vh;
+    
+    margin-left: 2%;
+}
